@@ -12,16 +12,14 @@ How to get
 ---------
 
 - Google Drive
-    - wget and vagrant box add
+    1. Open this url  in web browser
+        - https://drive.google.com/folderview?id=0B_MzkQ7E4I3Ta1ZiUXNFbHRQakk
+    1. Get the following files.
+        - [centos6.5.x86_64.20140301.box](https://drive.google.com/uc?id=0B_MzkQ7E4I3TUjhPY2x4dFFfLUU&export=download)
+    1. Add vagrant
 
         ```bash
-        wget https://docs.google.com/uc?export=download&confirm=Oq5E&id=0B_MzkQ7E4I3TUjhPY2x4dFFfLUU -O centos6.5.x86_64.20140301.box
         vagrant box add centos6.5.x86_64 centos6.5.x86_64.20140301.box
-        ```
-    - direct vagrant box add
-
-        ```bash
-        vagrant box add centos6.5.x86_64 https://docs.google.com/uc?export=download&confirm=Oq5E&id=0B_MzkQ7E4I3TUjhPY2x4dFFfLUU
         ```
 - Box
     1. Open this url  in web browser
