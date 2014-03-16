@@ -1,21 +1,21 @@
 Vagrant box CentOS 5.10 x86_64
-====================
+==============================
 
 Vagrant box file CentOS 5.10 x86_64
 
 License
-------
+-------
 
 see LICENSE file.
 
 How to get
----------
+----------
 
 - Google Drive
     1. Open this url  in web browser
-        - https://drive.google.com/folderview?id=0B_MzkQ7E4I3TVUZQTF9KX0NMYTA
+        - [CentOS\_5.10.x86\_64](https://drive.google.com/folderview?id=0B_MzkQ7E4I3TVUZQTF9KX0NMYTA)
     1. Get the following files.
-        - [centos5.10.x86_64.20140302.box](https://docs.google.com/uc?id=0B_MzkQ7E4I3TVWNKTlFDVHlKd0U&export=download)
+        - [centos5.10.x86\_64.20140302.box](https://docs.google.com/uc?id=0B_MzkQ7E4I3TVWNKTlFDVHlKd0U&export=download)
     1. Add vagrant
 
         ```bash
@@ -23,12 +23,12 @@ How to get
         ```
 - Box
     1. Open this url  in web browser
-        - https://app.box.com/s/q2w9via0a0ue56e0y2es
+        - [CentOS\_5.10.x86\_64](https://app.box.com/s/q2w9via0a0ue56e0y2es)
     1. Get the following files.
         - [merge.sh](https://app.box.com/s/h41qtrew81gdi7yvqe4q)
-        - [centos5.10.x86_64.20140302.box.aa](https://app.box.com/s/yocwcd6g0dc69cp5reo7)
-        - [centos5.10.x86_64.20140302.box.ab](https://app.box.com/s/oqr20haae9lp9g452iys)
-        - [centos5.10.x86_64.20140302.box.ac](https://app.box.com/s/m6owc6lkclkj6s4seclk)
+        - [centos5.10.x86\_64.20140302.box.aa](https://app.box.com/s/yocwcd6g0dc69cp5reo7)
+        - [centos5.10.x86\_64.20140302.box.ab](https://app.box.com/s/oqr20haae9lp9g452iys)
+        - [centos5.10.x86\_64.20140302.box.ac](https://app.box.com/s/m6owc6lkclkj6s4seclk)
     1. Merge files.
         - Run this shellscript.
 
@@ -52,7 +52,7 @@ How to get
         ```
 
 How to use
----------
+----------
 
 ```bash
 mkdir centos5.10.x86_64 && cd centos5.10.x86_64
@@ -66,21 +66,21 @@ Environment
 - OS:       CentOS 5.10 x86_64
 - Memory:   768MB
 - Disk
- - Disk 1 40GiB
-  - /boot       101MiB
-  - /(root) 36,750MiB
-  - swap     4,102MiB
+    - Disk1 40GiB
+        - /boot      101MiB
+        - /(root) 36,750MiB
+        - swap     4,102MiB
 - Domain:   localhost.localdomain
 - Timezone: Asia/Tokyo
 - Locale:   Japanese
 - Keyboard: US
 - Install Package
- - Base System
- - Japanese support
- - kernel-devel
- - gcc
- - yum-utils
- - VirtualBox Guest Additions
+    - Base System
+    - Japanese support
+    - kernel-devel
+    - gcc
+    - yum-utils
+    - VirtualBox Guest Additions
 - Disabled SELinux
 - vm.swappiness = 0
 - All package updated
@@ -94,7 +94,7 @@ History
 -------
 
 - 2014/03/16 CentOS 5.10 x86_64
-  - Update README.md
+    - Update README.md
 - 2014/03/02 CentOS 5.10 x86_64
- - Install Media: CentOS-5.10-x86_64-netinstall.iso
+    - Install Media: CentOS-5.10-x86_64-netinstall.iso
 
