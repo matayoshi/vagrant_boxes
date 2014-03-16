@@ -19,6 +19,10 @@ How to get
 History
 -------
 
+- 2014/03/16 CentOS 6.5 x86_64
+  - Update README.md
+- 2014/03/16 CentOS 5.10 x86_64
+  - Update README.md
 - 2014/03/02 CentOS 5.10 x86_64
  - Install Media: CentOS-5.10-x86_64-netinstall.iso
 - 2014/03/01 CentOS 6.5 x86_64

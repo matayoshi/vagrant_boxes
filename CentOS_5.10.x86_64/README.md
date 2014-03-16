@@ -19,7 +19,7 @@ How to get
     1. Add vagrant
 
         ```bash
-        vagrant box add centos5.10.x86_64 centos5.10.x86_64.20140302.box
+        vagrant box add --name centos5.10.x86_64 centos5.10.x86_64.20140302.box
         ```
 - Box
     1. Open this url  in web browser
@@ -48,7 +48,7 @@ How to get
     1. Add vagrant
 
         ```bash
-        vagrant box add centos5.10.x86_64 centos5.10.x86_64.20140302.box
+        vagrant box add --name centos5.10.x86_64 centos5.10.x86_64.20140302.box
         ```
 
 How to use
@@ -93,6 +93,8 @@ Linux localhost.localdomain 2.6.18-371.4.1.el5 #1 SMP Thu Jan 30 06:08:24 EST 20
 History
 -------
 
+- 2014/03/16 CentOS 5.10 x86_64
+  - Update README.md
 - 2014/03/02 CentOS 5.10 x86_64
  - Install Media: CentOS-5.10-x86_64-netinstall.iso
 

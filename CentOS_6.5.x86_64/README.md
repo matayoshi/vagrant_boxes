@@ -19,7 +19,7 @@ How to get
     1. Add vagrant
 
         ```bash
-        vagrant box add centos6.5.x86_64 centos6.5.x86_64.20140301.box
+        vagrant box add --name centos6.5.x86_64 centos6.5.x86_64.20140301.box
         ```
 - Box
     1. Open this url  in web browser
@@ -48,7 +48,7 @@ How to get
     1. Add vagrant
 
         ```bash
-        vagrant box add centos6.5.x86_64 centos6.5.x86_64.20140301.box
+        vagrant box add --name centos6.5.x86_64 centos6.5.x86_64.20140301.box
         ```
 
 How to use
@@ -93,6 +93,8 @@ Linux localhost.localdomain 2.6.32-431.1.5.1.el6.x86_64 #1 SMP Wed Feb 12 00:41:
 History
 -------
 
+- 2014/03/16 CentOS 6.5 x86_64
+  - Update README.md
 - 2014/03/01 CentOS 6.5 x86_64
  - Install Media: CentOS-6.5-x86_64-netinstall.iso
 
