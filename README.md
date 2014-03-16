@@ -19,6 +19,8 @@ How to get
 History
 -------
 
+- 2014/03/16 Ubuntu 12.04.4 Server amd64
+    - Install Media: ubuntu-12.04.4-server-amd64.iso
 - 2014/03/16 CentOS 6.5 x86_64
     - Update README.md
 - 2014/03/16 CentOS 5.10 x86_64
