@@ -21,7 +21,7 @@ How to get
     1. Add vagrant
 
         ```bash
-        vagrant box add --name ubuntu12.04.4.amd64 ubuntu12.04.4.amd64.20140316.box
+        vagrant box add --name ubuntu12.04.4.amd64 ubuntu_12.04.4.amd64.20140316.box
         ```
 - Box
     1. Open this url in web browser
@@ -46,17 +46,17 @@ How to get
         - Or execute this command.
 
             ```bash
-            cat ubuntu12.04.4.amd64.20140316.box.[a-z][a-z] > ubuntu12.04.4.amd64.20140316.box
+            cat ubuntu_12.04.4.amd64.20140316.box.[a-z][a-z] > ubuntu_12.04.4.amd64.20140316.box
             ```
     1. [Optional] Remove split files.
 
         ```bash
-        rm ubuntu12.04.4.amd64.20140316.box.[a-z][a-z]
+        rm ubuntu_12.04.4.amd64.20140316.box.[a-z][a-z]
         ```
     1. Add vagrant
 
         ```bash
-        vagrant box add --name ubuntu12.04.4.amd64 ubuntu12.04.4.amd64.20140316.box
+        vagrant box add --name ubuntu12.04.4.amd64 ubuntu_12.04.4.amd64.20140316.box
         ```
 
 How to use
