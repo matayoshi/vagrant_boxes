@@ -11,32 +11,39 @@ see LICENSE file.
 How to get
 ----------
 
+- Vagrant Cloud
+    1. Add vagrant
+
+        ```bash
+        vagrant box add --name centos6.5.x86_64 matayoshi/centos6.5.x86_64
+        ```
+
 - Google Drive
     1. Open this url in web browser
         - [CentOS\_6.5.x86\_64](https://drive.google.com/folderview?id=0B_MzkQ7E4I3Ta1ZiUXNFbHRQakk)
     1. Get the following files.
-        - [centos6.5.x86\_64.20140301.box](https://drive.google.com/uc?id=0B_MzkQ7E4I3TUjhPY2x4dFFfLUU&export=download)
-            - MD5:  43157b5278ee0a977b4e45c6f57d8271
-            - SHA1: 31b328c19a51a43cc6673d5a7220c62f13e91411
+        - [centos6.5.x86\_64.20140616.box](https://drive.google.com/uc?id=0B_MzkQ7E4I3TdWw1RWJHNzBTTTg&export=download)
+            - MD5:    0ef78f18fa597e987978cf37832e3d4e
+            - SHA1:   78e1b274f7cb98935704832410cbe8f0a0497c11
+            - SHA256: 83f34040e6ebab39d444e6a91d66cd7faed2f88466c157a11767d952e9b1a6c0
     1. Add vagrant
 
         ```bash
-        vagrant box add --name centos6.5.x86_64 centos6.5.x86_64.20140301.box
+        vagrant box add --name centos6.5.x86_64 centos6.5.x86_64.20140616.box
         ```
 - Box
     1. Open this url in web browser
         - [CentOS\_6.5.x86\_64](https://app.box.com/s/g9nz4hc6isoj3h5xgobu)
     1. Get the following files.
         - [merge.sh](https://app.box.com/s/ku4dw6z8xj7tpr0b44v3)
-        - [centos6.5.x86\_64.20140301.box.aa](https://app.box.com/s/14cm4el44ga6ix4zmc18)
-            - MD5:  032bd553c7907efe5a208caf59200086
-            - SHA1: 195bf3b306fd162da4d54770600b1f42ba90b754
-        - [centos6.5.x86\_64.20140301.box.ab](https://app.box.com/s/c9bvbq4k0d8624hmsk05)
-            - MD5:  bb64ed0320762dd051149a8d831ffa41
-            - SHA1: a0eddc4a41d3e7c5e056cdca3515304a43885a64
-        - [centos6.5.x86\_64.20140301.box.ac](https://app.box.com/s/5gk7ecvlzo3khb9x79cl)
-            - MD5:  226f8e4635bb05e7c34cc14ab350eadf
-            - SHA1: df15f39df03aa0732987c608b5a6a879141198a3
+        - [centos6.5.x86\_64.20140616.box.aa](https://app.box.com/s/https://app.box.com/s/lh49w5fouhkkerfp2qb3)
+            - MD5:    e52d6f2002927fec04d85fae6399a648
+            - SHA1:   7ab53da0a9ed3e429d5650be5c8f061de77eec28
+            - SHA256: 44bdada266fbf7e6845b918faaadfed81d4654e212ff918ccb41809ce73a06b5
+        - [centos6.5.x86\_64.20140616.box.ab](https://app.box.com/s/https://app.box.com/s/bggtnd2enfqzc5ddvs7z)
+            - MD5:    518873752ed8f5a4bbe13ec0c2a9f93b
+            - SHA1:   58057d6ddd3e8e0dab8cb8a508482b9bd3c20bc2
+            - SHA256: 16fbf100c043edb22b9b17c981cb800bd2f98d8520db88c6770e02d32944f45e
     1. Merge files.
         - Run this shellscript.
 
@@ -46,17 +53,17 @@ How to get
         - Or execute this command.
 
             ```bash
-            cat centos6.5.x86_64.20140301.box.[a-z][a-z] > centos6.5.x86_64.20140301.box
+            cat centos6.5.x86_64.20140616.box.[a-z][a-z] > centos6.5.x86_64.20140616.box
             ```
     1. [Optional] Remove split files.
 
         ```bash
-        rm centos6.5.x86_64.20140301.box.[a-z][a-z]
+        rm centos6.5.x86_64.20140616.box.[a-z][a-z]
         ```
     1. Add vagrant
 
         ```bash
-        vagrant box add --name centos6.5.x86_64 centos6.5.x86_64.20140301.box
+        vagrant box add --name centos6.5.x86_64 centos6.5.x86_64.20140616.box
         ```
 
 How to use
@@ -70,14 +77,15 @@ vagrant up
 
 Environment
 -----------
-- VirtualBox 4.3.8
+- Vagrant 1.6.3
+- VirtualBox 4.3.12
 - OS:       CentOS 6.5 x86_64
 - Memory:   768MB
 - Disk
     - Disk1 40GiB
-        - /boot      500MiB
-        - /(root) 36,363MiB
-        - swap     4,096MiB
+        - /boot      500MiB ext4 /dev/sda1
+        - /(root) 36,363MiB ext4 /dev/sda2
+        - swap     4,096MiB swap /dev/sda3
 - Domain:   localhost.localdomain
 - Timezone: Asia/Tokyo
 - Locale:   Japanese
@@ -90,17 +98,21 @@ Environment
     - yum-utils
     - VirtualBox Guest Additions
 - Disabled SELinux
+- Disabled iptables/ip6tables
 - vm.swappiness = 0
 - All package updated
+- See [all package list](./PACKAGE_LIST)
 
 ```bash
 $ uname -a
-Linux localhost.localdomain 2.6.32-431.1.5.1.el6.x86_64 #1 SMP Wed Feb 12 00:41:43 UTC 2014 x86_64 x86_64 x86_64 GNU/Linux
+Linux localhost.localdomain 2.6.32-431.17.1.el6.x86_64 #1 SMP Wed May 7 23:32:49 UTC 2014 x86_64 x86_64 x86_64 GNU/Linux
 ```
 
 History
 -------
 
+- 2014/06/16 CentOS 6.5 x86_64
+    - Update all packages
 - 2014/03/16 CentOS 6.5 x86_64
     - Update README.md
 - 2014/03/01 CentOS 6.5 x86_64
