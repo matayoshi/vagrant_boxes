@@ -23,6 +23,8 @@ How to get
 
 - Vagrant Cloud
     - https://vagrantcloud.com/matayoshi/
+- Github
+    - https://github.com/matayoshi/vagrant_boxes/releases
 - Google Drive
     - [vagrant](https://drive.google.com/folderview?id=0B_MzkQ7E4I3TekdWZkR1VEJKa1E)
 - Box

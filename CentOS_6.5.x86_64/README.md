@@ -18,6 +18,20 @@ How to get
         vagrant box add --name centos6.5.x86_64 matayoshi/centos6.5.x86_64
         ```
 
+- Github
+    1. Open this url in web browser
+        - [CentOS\_6.5.x86\_64](https://github.com/matayoshi/vagrant_boxes/releases/tag/v1.0.4)
+    1. Get the following files.
+        - [centos6.5.x86\_64.20140616.box](https://github.com/matayoshi/vagrant_boxes/releases/download/v1.0.4/centos6.5.x86_64.20140616.box)
+            - MD5:    0ef78f18fa597e987978cf37832e3d4e
+            - SHA1:   78e1b274f7cb98935704832410cbe8f0a0497c11
+            - SHA256: 83f34040e6ebab39d444e6a91d66cd7faed2f88466c157a11767d952e9b1a6c0
+    1. Add vagrant
+
+        ```bash
+        vagrant box add --name centos6.5.x86_64 centos6.5.x86_64.20140616.box
+        ```
+
 - Google Drive
     1. Open this url in web browser
         - [CentOS\_6.5.x86\_64](https://drive.google.com/folderview?id=0B_MzkQ7E4I3Ta1ZiUXNFbHRQakk)
@@ -31,6 +45,7 @@ How to get
         ```bash
         vagrant box add --name centos6.5.x86_64 centos6.5.x86_64.20140616.box
         ```
+
 - Box
     1. Open this url in web browser
         - [CentOS\_6.5.x86\_64](https://app.box.com/s/g9nz4hc6isoj3h5xgobu)
