@@ -33,6 +33,8 @@ How to get
 History
 -------
 
+- 2014/10/25 CentOS 6.5 x86_64
+    - Update all packages
 - 2014/06/16 CentOS 6.5 x86_64
     - Install Media: CentOS-6.5-x86_64-netinstall.iso
 - 2014/03/23 Ubuntu 13.10 Server amd64
