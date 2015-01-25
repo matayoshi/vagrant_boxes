@@ -12,6 +12,8 @@ Boxes List
     - CentOS 6 x86\_64
         - CentOS 6.5 x86\_64
         - CentOS 6.6 x86\_64
+    - CentOS 7 x86\_64
+        - CentOS 7.0 x86\_64
 - Ubuntu Server
     - Ubuntu 12.04.4 amd64
     - Ubuntu 13.10 amd64
@@ -36,8 +38,10 @@ How to get
 History
 -------
 
+- 2015/01/25 CentOS 7.0 x86\_64
+    - Install Media: CentOS-7.0-1406-x86\_64-DVD.iso
 - 2014/12/23 CentOS 6.6 x86\_64
-    - CentOS-6.6-x86\_64-bin-DVD1.iso
+    - Install Media: CentOS-6.6-x86\_64-bin-DVD1.iso
 - 2014/10/25 CentOS 6.5 x86\_64
     - Update all packages
 - 2014/06/16 CentOS 6.5 x86\_64
