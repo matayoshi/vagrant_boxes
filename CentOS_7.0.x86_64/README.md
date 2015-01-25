@@ -15,9 +15,9 @@ How to get
     1. Add vagrant
 
         ```bash
-        vagrant box add matayoshi/centos7.x86\_64
+        vagrant box add matayoshi/centos7.x86_64
         or
-        vagrant box add matayoshi/centos7.0.x86\_64
+        vagrant box add matayoshi/centos7.0.x86_64
         ```
 - Github
     1. Open this url in web browser
@@ -30,7 +30,7 @@ How to get
     3. Add vagrant
 
         ```bash
-        vagrant box add --name centos7.0.1406.x86\_64 centos7.0.1406.x86\_64.20150125.box
+        vagrant box add --name centos7.0.1406.x86_64 centos7.0.1406.x86_64.20150125.box
         ```
 - Google Drive
     1. Open this url in web browser
@@ -43,7 +43,7 @@ How to get
     3. Add vagrant
 
         ```bash
-        vagrant box add --name centos7.0.x86\_64 centos7.0.1406.x86\_64.20150125.box
+        vagrant box add --name centos7.0.x86_64 centos7.0.1406.x86_64.20150125.box
         ```
 - Box
     1. Open this url in web browser
@@ -71,25 +71,25 @@ How to get
         - Or execute this command.
 
             ```bash
-            cat centos7.0.1406.x86\_64.20150125.box.[a-z][a-z] > centos7.0.1406.x86\_64.20150125.box
+            cat centos7.0.1406.x86_64.20150125.box.[a-z][a-z] > centos7.0.1406.x86_64.20150125.box
             ```
     4. [Optional] Remove split files.
 
         ```bash
-        rm centos7.0.1406.x86\_64.20150125.box.[a-z][a-z]
+        rm centos7.0.1406.x86_64.20150125.box.[a-z][a-z]
         ```
     5. Add vagrant
 
         ```bash
-        vagrant box add --name centos7.0.x86\_64 centos7.0.1406.x86\_64.20150125.box
+        vagrant box add --name centos7.0.x86_64 centos7.0.1406.x86_64.20150125.box
         ```
 
 How to use
 ----------
 
 ```bash
-mkdir centos7.0.x86\_64 && cd centos7.0.x86\_64
-vagrant init centos7.0.x86\_64
+mkdir centos7.0.x86_64 && cd centos7.0.x86_64
+vagrant init centos7.0.x86_64
 vagrant up
 ```
 
@@ -124,7 +124,7 @@ Environment
 
 ```bash
 $ uname -a
-Linux localhost.localdomain 3.10.0-123.13.2.el7.x86\_64 #1 SMP Thu Dec 18 14:09:13 UTC 2014 x86\_64 x86\_64 x86\_64 GNU/Linux
+Linux localhost.localdomain 3.10.0-123.13.2.el7.x86_64 #1 SMP Thu Dec 18 14:09:13 UTC 2014 x86_64 x86_64 x86_64 GNU/Linux
 ```
 
 History
