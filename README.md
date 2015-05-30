@@ -34,6 +34,8 @@ How to get
 History
 -------
 
+- 2015/05/30 CentOS 6.5 x86\_64
+    - Remove file from Google Drive
 - 2015/05/30 CentOS 5.10 x86\_64
     - Remove file from Google Drive
 - 2015/05/30 Rename CentOS 7.0 x86\_64 to CentOS 7 x86\_64
