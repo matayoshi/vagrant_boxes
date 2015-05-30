@@ -11,18 +11,6 @@ see LICENSE file.
 How to get
 ----------
 
-- Google Drive
-    1. Open this url  in web browser
-        - [CentOS\_5.10.x86\_64](https://drive.google.com/folderview?id=0B_MzkQ7E4I3TVUZQTF9KX0NMYTA)
-    1. Get the following files.
-        - [centos5.10.x86\_64.20140302.box](https://docs.google.com/uc?id=0B_MzkQ7E4I3TVWNKTlFDVHlKd0U&export=download)
-            - MD5:  841a07dfa5fd0a30589a1319907613a6
-            - SHA1: abc863c6c5bafec9edb4fafe87499b516952cfb1
-    1. Add vagrant
-
-        ```bash
-        vagrant box add --name centos5.10.x86_64 centos5.10.x86_64.20140302.box
-        ```
 - Box
     1. Open this url  in web browser
         - [CentOS\_5.10.x86\_64](https://app.box.com/s/q2w9via0a0ue56e0y2es)
@@ -101,6 +89,7 @@ Linux localhost.localdomain 2.6.18-371.4.1.el5 #1 SMP Thu Jan 30 06:08:24 EST 20
 History
 -------
 
+- 2015/05/30 Remove file from Google Drive
 - 2014/03/16 CentOS 5.10 x86_64
     - Update README.md
 - 2014/03/02 CentOS 5.10 x86_64
