@@ -14,9 +14,6 @@ Boxes List
         - CentOS 6.6 x86\_64
     - CentOS 7 x86\_64
         - CentOS 7.0 x86\_64
-- Ubuntu Server
-    - Ubuntu 12.04.4 amd64
-    - Ubuntu 13.10 amd64
 
 License
 -------
@@ -38,6 +35,7 @@ How to get
 History
 -------
 
+- 2015/05/30 Remove Ubuntu Server Images
 - 2015/05/30 CentOS 6.6 x86\_64
     - Install Media: CentOS-6.6-x86\_64-bin-DVD1.iso
     - Update all packages
