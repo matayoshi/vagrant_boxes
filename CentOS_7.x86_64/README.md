@@ -1,7 +1,7 @@
-Vagrant box CentOS 7.0.1406 x86\_64
+Vagrant box CentOS 7.1406 x86\_64
 ===================================
 
-Vagrant box file CentOS 7.0.1406 x86\_64
+Vagrant box file CentOS 7.1406 x86\_64
 
 License
 -------
