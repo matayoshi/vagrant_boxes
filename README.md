@@ -34,8 +34,10 @@ How to get
 History
 -------
 
+- 2015/09/06 CentOS 6.6 x86\_64
+    - Remove file from Google Drive
 - 2015/05/30 CentOS 7.0 x86\_64
-    - Install Media: CentOS-7-x86_64-DVD-1503-01.iso
+    - Install Media: CentOS-7-x86\_64-DVD-1503-01.iso
 - 2015/05/30 CentOS 6.5 x86\_64
     - Remove file from Google Drive
 - 2015/05/30 CentOS 5.10 x86\_64

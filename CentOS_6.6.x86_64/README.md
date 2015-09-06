@@ -32,19 +32,6 @@ How to get
         ```bash
         vagrant box add --name centos6.6.x86_64 centos6.6.x86_64.20150530.box
         ```
-- Google Drive
-    1. Open this url in web browser
-        - [CentOS\_6.6.x86\_64](https://drive.google.com/folderview?id=0B_MzkQ7E4I3TaG50OUtwUDBVVUk)
-    2. Get the following files.
-        - [centos6.6.x86\_64.20150530.box](https://drive.google.com/uc?id=0B_MzkQ7E4I3Tc3dtN1RSeVBWdzg&export=download)
-            - MD5:    d7b01f91e24332295ea1d3c9c093a9db
-            - SHA1:   21193a691f6045f5c579fcaf221e2773d0514097
-            - SHA256: 9e145846acbfe80247a1f79fe0e8430da2a05a3d8297db4f06b5d2beec7a86ee
-    3. Add vagrant
-
-        ```bash
-        vagrant box add --name centos6.6.x86_64 centos6.6.x86_64.20150530.box
-        ```
 - Box
     1. Open this url in web browser
         - [CentOS\_6.6.x86\_64](https://app.box.com/s/g9k9h1e9lkrs721ko3zt)

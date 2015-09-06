@@ -15,7 +15,7 @@ How to get
     1. Add vagrant
 
         ```bash
-        vagrant box add --name centos6.5.x86_64 matayoshi/centos6.5.x86_64
+        vagrant box add matayoshi/centos6.5.x86_64
         ```
 - Github
     1. Open this url in web browser
