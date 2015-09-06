@@ -16,8 +16,6 @@ How to get
 
         ```bash
         vagrant box add matayoshi/centos6.6.x86_64
-        or
-        vagrant box add matayoshi/centos6.x86_64
         ```
 - Github
     1. Open this url in web browser
