@@ -35,6 +35,8 @@ How to get
 History
 -------
 
+- 2016/04/17 CentOS 7.0 x86\_64
+    - Install Media: CentOS-7-x86\_64-DVD-1511.iso
 - 2015/09/06 CentOS 6.7 x86\_64
     - Install Media: CentOS-6.7-x86\_64-bin-DVD1.iso
 - 2015/09/06 CentOS 6.6 x86\_64
