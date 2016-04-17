@@ -27,8 +27,6 @@ How to get
     - [matayoshi](https://vagrantcloud.com/matayoshi/)
 - Github
     - [vagrant\_boxes](https://github.com/matayoshi/vagrant_boxes/releases)
-- Google Drive
-    - [vagrant](https://drive.google.com/folderview?id=0B_MzkQ7E4I3TekdWZkR1VEJKa1E)
 - Box
     - [vagrant](https://app.box.com/s/y0acu5g4stq19wkc3gkw)
 
