@@ -3,6 +3,9 @@ Vagrant box CentOS 6.7 x86_64
 
 Vagrant box file CentOS 6.7 x86_64
 
+**This repo image is for testing. It will not be continually updated.**  
+**Please use official images! https://atlas.hashicorp.com/CentOS/**  
+
 License
 -------
 
@@ -12,11 +15,12 @@ How to get
 ----------
 
 - Vagrant Cloud
-    1. Add vagrant
+    1. Add vagrant  
+        centos6.7.x86_64 is invalid.
 
         ```bash
-        vagrant box add matayoshi/centos6.7.x86_64
-        or
+        # vagrant box add matayoshi/centos6.7.x86_64
+        # or
         vagrant box add matayoshi/centos6.x86_64
         ```
 - Github

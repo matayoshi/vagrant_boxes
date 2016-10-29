@@ -3,6 +3,9 @@ Vagrant box CentOS 7.1511 x86\_64
 
 Vagrant box file CentOS 7.1511 x86\_64
 
+**This repo image is for testing. It will not be continually updated.**  
+**Please use official images! https://atlas.hashicorp.com/CentOS/**  
+
 License
 -------
 

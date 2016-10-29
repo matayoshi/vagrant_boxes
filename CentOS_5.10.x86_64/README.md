@@ -3,6 +3,9 @@ Vagrant box CentOS 5.10 x86_64
 
 Vagrant box file CentOS 5.10 x86_64
 
+**This repo image is for testing. It will not be continually updated.**  
+**Please use official images! https://atlas.hashicorp.com/CentOS/**  
+
 License
 -------
 
@@ -94,4 +97,3 @@ History
     - Update README.md
 - 2014/03/02 CentOS 5.10 x86_64
     - Install Media: CentOS-5.10-x86_64-netinstall.iso
-

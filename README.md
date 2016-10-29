@@ -1,7 +1,10 @@
 Vagrant boxes
 =============
 
-Vagrant box files
+Vagrant box files.  
+
+**This repo image is for testing. It will not be continually updated.**  
+**Please use official images! https://atlas.hashicorp.com/CentOS/**  
 
 Boxes List
 ----------
